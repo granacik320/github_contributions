@@ -1,0 +1,11 @@
+body{
+    animation: dt 7s linear 15s forwards;
+}
+@keyframes dt{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
